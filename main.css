@@ -1,0 +1,35 @@
+html{
+    max-height: 2000px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(145, 145, 145));
+}
+
+.head{
+    font-family: Impact;
+    font-size: 800%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.text1 {
+    align-self: flex-end;
+    font-family: Impact;
+    font-size: 200%;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+    place-items: center;
+}
+
+.button1{
+    width: 20%;
+    height: 3em;
+}
