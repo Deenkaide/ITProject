@@ -13,8 +13,9 @@ body{
 .block1{
     display: grid;
     grid-template-areas:
-    "C B B"
-    "C B B";
+    "A A A A   A A A A   A A A A"
+    "B B B B   B B B B   B B C C"
+    "B B B B   B B B B   B B C C";
     justify-content: center;
     justify-self: end;
     gap: 20px  20px;
