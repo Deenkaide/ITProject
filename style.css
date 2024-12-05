@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Comfortaa;
+}
+
+.block1{
+    display: grid;
+    grid-template-areas:
+    "C B B"
+    "C B B";
+    justify-content: center;
+    justify-self: end;
+    gap: 20px  20px;
+    margin: 0 10% 0 10%;
+}
+
+img{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.header{
+    font-size: 3em;
+}
+
+.textMain{
+    grid-area: B;
+    background-color: skyblue;
+}
+
+.image1{
+    grid-area: C;
+    justify-self: start;
+    background-color: lightblue;
+    min-width: 10em;
+}
