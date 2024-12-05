@@ -8,6 +8,7 @@
 
 body{
     font-family: Comfortaa;
+    background: skyblue;
 }
 
 img{
@@ -17,56 +18,68 @@ img{
 
 .header{
     font-size: 3em;
+    justify-self: center;
+}
+
+.line1{
+    background: lightblue;
 }
 
 /* Part 1 */
 .block1{
     display: grid;
     grid-template-areas:
-    "A A A A   A A A A   A A A A"
-    "B B B B   B B B B   B B C C"
-    "B B B B   B B B B   B B C C";
+    "T T T T   T T C C   C C C C"
+    "H H H H   H H B B   B B B B";
     justify-content: center;
     justify-self: center;
     margin: 0 10% 1em 10%;
+    column-gap: 5%;
+
+    /* background-color: aqua; */
 }
 
 .text1{
     grid-area: B;
-    justify-self: end;
-    background-color: skyblue;
-    max-width: 50em;
+    max-width: 20em;
+
+    /* background-color: lightblue; */
 }
 
 .image1{
     grid-area: C;
-    justify-self: end;
-    background-color: lightblue;
-    min-width: 10em;
+    min-width: 5em;
+    max-width: 10em;
+    justify-self: center;
+
+    /* background-color: lightblue; */
 }
 
 /* Part 2 */
-.block2{
+/* .block2{
     display: grid;
     grid-template-areas:
     "A A A A   A A A A   A A A A"
-    "C C B B   B B B B   B B B B"
-    "C C B B   B B B B   B B B B";
+    "C C C C   C C C C   C C C C"
+    "B B B B   B B B B   B B B B";
     justify-content: center;
-    justify-self: center;
+    justify-self: left;
     margin: 0 10% 1em 10%;
-}
+} */
 
 .text2{
-    grid-area: B;
-    justify-self: start;
-    background-color: skyblue;
-    max-width: 50em;
+    grid-area: H;
+    max-width: 20em;
+    justify-self: left;
+
+    /* background-color: lightblue; */
 }
 
 .image2{
-    grid-area: C;
-    justify-self: start;
-    background-color: lightblue;
-    min-width: 10em;
+    grid-area: T;
+    min-width: 5em;
+    max-width: 10em;
+    justify-self: center;
+
+    /* background-color: lightblue; */
 }
